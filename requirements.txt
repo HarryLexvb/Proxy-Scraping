@@ -1,0 +1,28 @@
+# ==========================================
+# OSIPTEL Scraper v1.0 - Dependencias
+# ==========================================
+# Instalar con: pip install -r requirements.txt
+# Python requerido: 3.10 o superior
+
+# Browser automation con anti-detección
+camoufox>=0.4.11,<1.0.0
+
+# Operaciones de archivos asíncronas
+aiofiles>=24.0.0,<25.0.0
+
+# Cliente HTTP asíncrono (para testing y monitoreo)
+aiohttp>=3.10.0,<4.0.0
+
+# Procesamiento de datos
+pandas>=2.2.0,<3.0.0
+openpyxl>=3.1.0,<4.0.0
+
+# Monitoreo del sistema (CPU, RAM, red)
+psutil>=6.0.0,<7.0.0
+
+# ==========================================
+# NOTAS IMPORTANTES
+# ==========================================
+# 1. Después de instalar, ejecutar: python -m camoufox fetch
+# 2. Si usas Windows, asegúrate de tener Visual C++ Redistributable
+# 3. Para mejor rendimiento, usa Python 3.11 o 3.12
